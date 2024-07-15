@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background: #000;
+    margin-left: 10px;
+    display: inline-block;
+
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background:lavender;
+    display: inline-block;
+}
+h1{
+    background: peru;
+}
+a{
+    text-decoration: none;
+    margin-left:30px;
+    margin-right: -30px;
+    
+    /* margin-right: 100px; */
+    font-size: 20px;
+}
