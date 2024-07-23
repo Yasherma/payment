@@ -3,28 +3,34 @@
     margin: 0;
     font-family: cursive;
 }
-#box1{
-    height: 100px;
-    width: 100px;
-    background: #000;
-    margin-left: 10px;
-    display: inline-block;
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWC_eHP--gLpkxI27Mc4vAQ-94Y28Ib-4xNw&s");
+    background-size: cover;
+}
 
-}
-#box2{
-    height: 100px;
-    width: 100px;
-    background:lavender;
-    display: inline-block;
-}
+
 h1{
     background: peru;
+    
+}
+#check:hover{
+    background:rgb(86, 152, 218)
+    transform: scale(1.1);
+    border: 2px white solid;
+
 }
 a{
     text-decoration: none;
-    margin-left:30px;
-    margin-right: -30px;
+    margin-left:650px;
+    color: rgba(6, 6, 7, 0.712);
+    margin-right: -650px;
     
     /* margin-right: 100px; */
     font-size: 20px;
+}
+a:hover{
+    background: rgb(86, 152, 218);
+    transform: scale(1.1);
+    border: 2px white solid;
+
 }
